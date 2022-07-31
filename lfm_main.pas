@@ -5,14 +5,18 @@ unit lfm_main;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls;
 
 type
 
   { TfrmMain }
 
   TfrmMain = class(TForm)
+    Button1: TButton;
+    CheckBox1: TCheckBox;
+    Edit1: TEdit;
     sbaStatus: TStatusBar;
+    TreeView1: TTreeView;
   private
 
   public
