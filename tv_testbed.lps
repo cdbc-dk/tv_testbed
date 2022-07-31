@@ -19,14 +19,97 @@
         <ComponentName Value="frmMain"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="34"/>
+        <CursorPos X="41" Y="43"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="/usr/lib64/lazarus/components/lazutils/lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="53"/>
+        <CursorPos X="96" Y="61"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib64/lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="3069"/>
+        <CursorPos X="14" Y="3072"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib64/lazarus/lcl/include/treeview.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1106"/>
+        <CursorPos X="3" Y="1111"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="67"/>
+        <CursorPos X="10" Y="72"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory>
+    <JumpHistory HistoryIndex="11">
       <Position>
         <Filename Value="lfm_main.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="9" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="9" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
+        <Caret Line="37" Column="29" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
+        <Caret Line="42" Column="19" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="9" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="/usr/lib64/lazarus/lcl/comctrls.pp"/>
+      </Position>
+      <Position>
+        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
+        <Caret Line="37" Column="39" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="/usr/lib64/lazarus/lcl/comctrls.pp"/>
+        <Caret Line="3072" Column="14" TopLine="3069"/>
+      </Position>
+      <Position>
+        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
+        <Caret Line="37" Column="39" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="6" Column="35" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="5" Column="42"/>
       </Position>
     </JumpHistory>
     <RunParams>

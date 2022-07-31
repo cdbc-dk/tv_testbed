@@ -48,6 +48,8 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="../../bc_rtl/include"/>
+      <OtherUnitFiles Value="../../bc_rtl"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
