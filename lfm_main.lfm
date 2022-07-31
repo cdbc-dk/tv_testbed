@@ -1,0 +1,19 @@
+object frmMain: TfrmMain
+  Left = 280
+  Height = 369
+  Top = 188
+  Width = 776
+  Caption = 'Treeview Testbed'
+  ClientHeight = 369
+  ClientWidth = 776
+  DesignTimePPI = 120
+  KeyPreview = True
+  LCLVersion = '2.2.2.0'
+  object sbaStatus: TStatusBar
+    Left = 0
+    Height = 24
+    Top = 345
+    Width = 776
+    Panels = <>
+  end
+end
