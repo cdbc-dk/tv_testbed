@@ -13,8 +13,16 @@
       </XPManifest>
       <Icon Value="0"/>
     </General>
+    <MacroValues Count="2">
+      <Macro1 Name="LCLWidgetType" Value="qt5"/>
+      <Macro2 Name="LCLWidgetType" Value="qt"/>
+    </MacroValues>
     <BuildModes>
       <Item Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="125511804151" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="qt5"/>
+        <Item2 ID="138715948098" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="qt"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -37,6 +45,14 @@
         <Filename Value="lfm_main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lfm_deletenodes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDeleteNodes"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
@@ -48,7 +64,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <Libraries Value="../../bc_rtl/include"/>
+      <Libraries Value="../../bc_rtl/inc"/>
       <OtherUnitFiles Value="../../bc_rtl"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
