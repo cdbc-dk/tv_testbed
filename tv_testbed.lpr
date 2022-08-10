@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, lfm_main, lfm_deletenodes
+  Forms, lfm_main, lfm_deletenodes, lfm_dataaware
   { you can add units after this };
 
 {$R *.res}
@@ -20,7 +20,8 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
-  Application.CreateForm(TfrmDeleteNodes, frmDeleteNodes);
+//  Application.CreateForm(TfrmDeleteNodes, frmDeleteNodes);
+//  Application.CreateForm(TfrmDataAware, frmDataAware);
   Application.Run;
 end.
 
