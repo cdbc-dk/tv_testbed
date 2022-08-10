@@ -1,0 +1,64 @@
+object frmDataAware: TfrmDataAware
+  Left = 684
+  Height = 432
+  Top = 267
+  Width = 682
+  Caption = 'Data awareness'
+  ClientHeight = 432
+  ClientWidth = 682
+  LCLVersion = '2.2.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 682
+    Align = alTop
+    TabOrder = 0
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 19
+    Top = 413
+    Width = 682
+    Panels = <>
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 363
+    Top = 50
+    Width = 185
+    Align = alLeft
+    Caption = 'GroupBox1'
+    TabOrder = 2
+  end
+  object Splitter1: TSplitter
+    Left = 185
+    Height = 363
+    Top = 50
+    Width = 5
+  end
+  object GroupBox2: TGroupBox
+    Left = 190
+    Height = 363
+    Top = 50
+    Width = 185
+    Align = alLeft
+    Caption = 'GroupBox2'
+    TabOrder = 4
+  end
+  object Splitter2: TSplitter
+    Left = 375
+    Height = 363
+    Top = 50
+    Width = 5
+  end
+  object GroupBox3: TGroupBox
+    Left = 380
+    Height = 363
+    Top = 50
+    Width = 302
+    Align = alClient
+    Caption = 'GroupBox3'
+    TabOrder = 6
+  end
+end

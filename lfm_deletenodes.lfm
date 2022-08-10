@@ -1,7 +1,7 @@
 object frmDeleteNodes: TfrmDeleteNodes
-  Left = 749
+  Left = 910
   Height = 353
-  Top = 225
+  Top = 149
   Width = 439
   BorderStyle = bsDialog
   Caption = 'Delete Nodes Etc...'

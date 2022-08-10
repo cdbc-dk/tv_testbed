@@ -1,5 +1,4 @@
 unit lfm_main;
-
 {$mode objfpc}{$H+}
 
 interface
@@ -7,7 +6,8 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls,
   lazutf8, LCLIntf, Buttons,
-  bc_trvhelp;
+  bc_trvhelp,
+  tv_const;
 
 type
   { TfrmMain }
@@ -20,9 +20,11 @@ type
     memDebug: TMemo;
     sbaStatus: TStatusBar;
     btnDeleteFormShow: TSpeedButton;
+    btnShowDataAwareForm: TSpeedButton;
     trvDates: TTreeView;
     procedure btnDeleteFormShowClick(Sender: TObject);
     procedure btnGetNodeByTextClick(Sender: TObject);
+    procedure btnShowDataAwareFormClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
 
@@ -35,7 +37,7 @@ var
 
 implementation
 uses
-  lfm_deletenodes;
+  lfm_deletenodes, lfm_dataaware;
 {$R *.lfm}
 
 { TfrmMain }
@@ -53,9 +55,22 @@ begin
   end;
 end;
 
+procedure TfrmMain.btnShowDataAwareFormClick(Sender: TObject);
+begin
+  with TfrmDataAware.Create(nil) do begin
+    try
+      ShowModal;
+    finally Free; end;
+  end;
+end;
+
 procedure TfrmMain.btnDeleteFormShowClick(Sender: TObject);
 begin
-  lfm_deletenodes.frmDeleteNodes.Show;
+  with TfrmDeleteNodes.Create(nil) do begin
+    try
+      ShowModal;
+    finally Free; end;
+  end;
 end;
 
 procedure TfrmMain.FormShow(Sender: TObject);

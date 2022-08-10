@@ -9,9 +9,7 @@ uses
   StdCtrls;
 
 type
-
   { TfrmDeleteNodes }
-
   TfrmDeleteNodes = class(TForm)
     gbxData: TGroupBox;
     gbxAction: TGroupBox;

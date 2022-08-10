@@ -7,10 +7,10 @@
       <Unit>
         <Filename Value="tv_testbed.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="13"/>
-        <CursorPos Y="25"/>
-        <UsageCount Value="172"/>
+        <CursorPos X="3" Y="24"/>
+        <UsageCount Value="227"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,9 +19,10 @@
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="2"/>
-        <CursorPos X="8" Y="10"/>
-        <UsageCount Value="172"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="59"/>
+        <CursorPos X="16" Y="69"/>
+        <UsageCount Value="227"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,11 +32,21 @@
         <ComponentName Value="frmDeleteNodes"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="lfm_dataaware.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDataAware"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="145"/>
-        <CursorPos X="10" Y="122"/>
-        <UsageCount Value="157"/>
+        <CursorPos X="5" Y="9"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -44,7 +55,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="22"/>
         <CursorPos X="11" Y="32"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="26"/>
       </Unit>
       <Unit>
         <Filename Value="/usr/lib64/lazarus/lcl/comctrls.pp"/>
@@ -52,41 +63,35 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3211"/>
         <CursorPos X="21" Y="3215"/>
-        <UsageCount Value="80"/>
+        <UsageCount Value="75"/>
       </Unit>
       <Unit>
         <Filename Value="/usr/lib64/lazarus/lcl/include/treeview.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="484"/>
         <CursorPos Y="491"/>
-        <UsageCount Value="80"/>
+        <UsageCount Value="75"/>
       </Unit>
       <Unit>
         <Filename Value="../../bc_rtl/bc_errorlog.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="59"/>
         <CursorPos X="51" Y="65"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="26"/>
       </Unit>
       <Unit>
         <Filename Value="../../bc_rtl/bc_types.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="293"/>
         <CursorPos X="52" Y="303"/>
-        <UsageCount Value="29"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../bc_rtl/inc/bc_version.inc"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="5"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="24"/>
       </Unit>
       <Unit>
         <Filename Value="../../bc_rtl/bc_trvhelp.pas"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="137"/>
         <CursorPos X="40" Y="147"/>
-        <UsageCount Value="55"/>
+        <UsageCount Value="82"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -94,37 +99,25 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2825"/>
         <CursorPos Y="2831"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="/usr/lib64/lazarus/lcl/include/toolbutton.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="178"/>
         <CursorPos Y="184"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="tv_const.pp"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="52"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="56" Column="89" TopLine="47"/>
-      </Position>
-      <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="57" Column="89" TopLine="48"/>
-      </Position>
-      <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="34" Column="26" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="71" Column="35" TopLine="61"/>
-      </Position>
-      <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="62" Column="5" TopLine="49"/>
-      </Position>
       <Position>
         <Filename Value="lfm_deletenodes.pas"/>
         <Caret Line="36" Column="18" TopLine="29"/>
@@ -224,6 +217,26 @@
       <Position>
         <Filename Value="lfm_deletenodes.pas"/>
         <Caret Line="38" Column="25" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_deletenodes.pas"/>
+        <Caret Line="128" Column="11" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="24" Column="23" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="59" Column="34" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="32" Column="36" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="lfm_main.pas"/>
+        <Caret Line="36" Column="12" TopLine="29"/>
       </Position>
     </JumpHistory>
     <RunParams>
