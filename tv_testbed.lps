@@ -7,9 +7,8 @@
       <Unit>
         <Filename Value="tv_testbed.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
-        <TopLine Value="13"/>
-        <CursorPos X="3" Y="24"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="18" Y="13"/>
         <UsageCount Value="227"/>
         <Loaded Value="True"/>
       </Unit>
@@ -19,9 +18,8 @@
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="59"/>
-        <CursorPos X="16" Y="69"/>
+        <TopLine Value="56"/>
+        <CursorPos X="76" Y="69"/>
         <UsageCount Value="227"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -32,8 +30,9 @@
         <ComponentName Value="frmDeleteNodes"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
-        <CursorPos Y="3"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="94"/>
+        <CursorPos X="41" Y="105"/>
         <UsageCount Value="212"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -44,18 +43,14 @@
         <ComponentName Value="frmDataAware"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="5" Y="9"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="271"/>
+        <CursorPos Y="283"/>
+        <FoldState Value=" T3j90PB"/>
+        <UsageCount Value="220"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../bc_rtl/bc_tvhelp.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="22"/>
-        <CursorPos X="11" Y="32"/>
-        <UsageCount Value="26"/>
       </Unit>
       <Unit>
         <Filename Value="/usr/lib64/lazarus/lcl/comctrls.pp"/>
@@ -63,180 +58,335 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3211"/>
         <CursorPos X="21" Y="3215"/>
-        <UsageCount Value="75"/>
+        <UsageCount Value="38"/>
       </Unit>
       <Unit>
         <Filename Value="/usr/lib64/lazarus/lcl/include/treeview.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="484"/>
         <CursorPos Y="491"/>
-        <UsageCount Value="75"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../bc_rtl/bc_errorlog.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="59"/>
-        <CursorPos X="51" Y="65"/>
-        <UsageCount Value="26"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../bc_rtl/bc_types.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="293"/>
-        <CursorPos X="52" Y="303"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="38"/>
       </Unit>
       <Unit>
         <Filename Value="../../bc_rtl/bc_trvhelp.pas"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="137"/>
-        <CursorPos X="40" Y="147"/>
-        <UsageCount Value="82"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="151"/>
+        <CursorPos X="3" Y="86"/>
+        <UsageCount Value="160"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="/usr/lib64/lazarus/lcl/include/control.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2825"/>
-        <CursorPos Y="2831"/>
-        <UsageCount Value="5"/>
-      </Unit>
-      <Unit>
-        <Filename Value="/usr/lib64/lazarus/lcl/include/toolbutton.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="178"/>
-        <CursorPos Y="184"/>
-        <UsageCount Value="5"/>
-      </Unit>
-      <Unit>
         <Filename Value="tv_const.pp"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="40"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="16"/>
         <CursorPos Y="52"/>
+        <UsageCount Value="116"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../sandbox/daily_diary/bom/bom_dd.pas"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="251"/>
+        <CursorPos Y="336"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_datetime.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos X="22" Y="144"/>
         <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/inc/date_time_util.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="107"/>
+        <CursorPos Y="106"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/inc/iso_date_time.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="3" Y="17"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/inc/iso_time.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos X="3" Y="75"/>
+        <UsageCount Value="38"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/sysutils/datih.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="116"/>
+        <CursorPos X="11" Y="124"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/packages/rtl-objpas/src/inc/dateutils.pp"/>
+        <UnitName Value="DateUtils"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/packages/rtl-objpas/src/inc/dateutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1323"/>
+        <CursorPos X="25" Y="1299"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/unix/sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1657"/>
+        <CursorPos X="2" Y="1669"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/inc/iso_date.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="269"/>
+        <CursorPos Y="277"/>
+        <UsageCount Value="13"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="547"/>
+        <CursorPos X="15" Y="555"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/classes/collect.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="358"/>
+        <CursorPos X="3" Y="351"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_observer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos Y="126"/>
+        <UsageCount Value="51"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../sandbox/daily_diary/global/dd_settings.pas"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="18"/>
+        <CursorPos X="10" Y="33"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../sandbox/daily_diary/global/daily_diary_const.pas"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="70"/>
+        <CursorPos X="38" Y="31"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib64/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="143"/>
+        <CursorPos Y="143"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/sysutils/sysutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="4" Y="104"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/sysutils/sysutils.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos X="9" Y="158"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/rtl/objpas/classes/streams.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="3" Y="29"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cutaway.pp"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_mtlinklist.pas"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="831"/>
+        <CursorPos X="3" Y="750"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib64/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="313"/>
+        <CursorPos X="3" Y="402"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_litedb.pas"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="51"/>
+        <CursorPos X="14" Y="58"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/packages/fcl-db/src/base/db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="41"/>
+        <CursorPos X="48" Y="49"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../bc_rtl/bc_utilities.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="263"/>
+        <CursorPos X="3" Y="282"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="36" Column="18" TopLine="29"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="156"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="85" Column="27" TopLine="72"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="172" TopLine="165"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="60" Column="3" TopLine="57"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="76" Column="19" TopLine="65"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="167" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="70" Column="37" TopLine="57"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="169" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="71" TopLine="65"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="70" Column="28" TopLine="63"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="167" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_main.pas"/>
-        <Caret Line="10" Column="8" TopLine="2"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="169" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="74" Column="60" TopLine="71"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="75" Column="60" TopLine="72"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="172" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="104" Column="9" TopLine="101"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="110" Column="9" TopLine="102"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="167" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="78" Column="65" TopLine="73"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="169" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="80" Column="75" TopLine="74"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="37" Column="27" TopLine="35"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="167" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="122" Column="3" TopLine="119"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="169" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="123" Column="3" TopLine="110"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="166" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="131" Column="31" TopLine="118"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="172" TopLine="163"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="122" Column="21" TopLine="112"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="170" Column="9" TopLine="161"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="106" Column="5" TopLine="93"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="12" Column="15"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="143" Column="48" TopLine="130"/>
+        <Filename Value="../../bc_rtl/bc_utilities.pas"/>
+        <Caret Line="70" Column="20" TopLine="61"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="120" Column="3" TopLine="113"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="2" Column="31"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="34" Column="15" TopLine="29"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="55" Column="20" TopLine="43"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="121" Column="30" TopLine="109"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="123" Column="30" TopLine="85"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="38" Column="25" TopLine="30"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="190" Column="5" TopLine="180"/>
       </Position>
       <Position>
-        <Filename Value="lfm_deletenodes.pas"/>
-        <Caret Line="128" Column="11" TopLine="117"/>
+        <Filename Value="lfm_dataaware.pas"/>
       </Position>
       <Position>
-        <Filename Value="lfm_main.pas"/>
-        <Caret Line="24" Column="23" TopLine="17"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="17" Column="40" TopLine="4"/>
       </Position>
       <Position>
-        <Filename Value="lfm_main.pas"/>
-        <Caret Line="59" Column="34" TopLine="55"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="151" Column="53" TopLine="138"/>
       </Position>
       <Position>
-        <Filename Value="lfm_main.pas"/>
-        <Caret Line="32" Column="36" TopLine="27"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="162" Column="102" TopLine="149"/>
       </Position>
       <Position>
-        <Filename Value="lfm_main.pas"/>
-        <Caret Line="36" Column="12" TopLine="29"/>
+        <Filename Value="lfm_dataaware.pas"/>
+        <Caret Line="227" Column="52" TopLine="214"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -245,15 +395,49 @@
     </RunParams>
   </ProjectSession>
   <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../sandbox/daily_diary/bom/bom_dd.pas"/>
+        <Line Value="213"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../sandbox/daily_diary/bom/bom_dd.pas"/>
+        <Line Value="336"/>
+      </Item>
+    </BreakPoints>
     <Watches>
       <Item>
+        <Expression Value="L"/>
+      </Item>
+      <Item>
+        <Expression Value="H"/>
+      </Item>
+      <Item>
+        <Expression Value="ftime"/>
+      </Item>
+      <Item>
+        <Expression Value="finttime"/>
+      </Item>
+      <Item>
+        <Expression Value="M"/>
+      </Item>
+      <Item>
+        <Expression Value="S"/>
+      </Item>
+      <Item>
+        <Expression Value="msec"/>
+      </Item>
+      <Item>
+        <Expression Value="Result"/>
+      </Item>
+      <Item>
         <Expression Value="aValue"/>
-      </Item>
-      <Item>
-        <Expression Value="fFilename"/>
-      </Item>
-      <Item>
-        <Expression Value="aNode.text"/>
       </Item>
     </Watches>
   </Debugging>

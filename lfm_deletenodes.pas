@@ -76,10 +76,10 @@ begin
     fLevel1.Selected:= true;
   end else if trvData.Items.Count > 1 then begin { n.th sibling, root assigned }
     if fLevel1 <> nil then Node:= bc_trvhelp.AddSiblingNodeWithData(trvData,fLevel1,S,nil);
-    if assigned(Node) then Node.Selected:= true;    // todo avoid multible root nodes
+    if assigned(Node) then Node.Selected:= true;
     {$ifdef debug}
-      if assigned(fLevel1) then memAction.Lines.Add('%s - fLevel1: %s',[Dt,fLevel1.Text]);
       Dt:= DateTimeToStr(Now);
+      if assigned(fLevel1) then memAction.Lines.Add('%s - fLevel1.Text: %s',[Dt,fLevel1.Text]);
       memAction.Lines.Add('%s - Root assigned, no selection, Sibling-node added: %s with data',[Dt,S]);
       ErrorLog.LogLn(Dt+' - Sibling-node added: '+S+' with data');
     {$endif}
@@ -113,7 +113,7 @@ var
   Node: TTreeNode;
 begin
   SetRootNode('Dates:',nil);
-  if trvData.Items.Count > 1 then fLevel1:= trvData.Items[0];
+  if trvData.Items.Count > 1 then fLevel1:= trvData.Items[1];
   for Node in trvData.Items do Node.ImageIndex:= 9;
   fRootNode.ImageIndex:= 8;
 end;
